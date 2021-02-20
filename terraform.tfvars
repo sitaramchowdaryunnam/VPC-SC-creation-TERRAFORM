@@ -1,5 +1,5 @@
-aws_access_key ="AKIAZ5E2DH27KAVDJ2VM"
-aws_secret_key ="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"
+aws_access_key =""
+aws_secret_key =""
 aws_region = "us-east-1"
 vpc_Name = "Prod_Test_Vpc"
 public_subnet = "10.1.1.0/24"
