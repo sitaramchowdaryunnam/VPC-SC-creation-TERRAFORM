@@ -9,14 +9,17 @@ variable "subnet_name"{}
  variable "CIDRS"{
      description ="CIDR Blocks for subnet"
      type = "list"
-     default = ["10.1.1.0/24","10.1.2.0/24","10.1.3.0/24"]
+     default = ["10.0.1.0/24","10.0.2.0/24"]
     }
-  variable "azs"{
-     description ="Runs az in this xones"
-     type = "list"
-     default = ["us-east-1a","us-east-1b","us-east-1c"]
-    } 
+  # variable "azs"{
+  #    description ="Runs az in this xones"
+  #    type = "list"
+  #    default = ["us-east-1a","us-east-1b","us-east-1c"]
+  #   } 
 #  variable "ami"{}
+variable "Name"{
+  default = ["Webserver","Database"]
+}
  variable "env"{}
  variable "aws_key_name"{}
  variable "aws_ami" {}
